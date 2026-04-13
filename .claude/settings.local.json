@@ -17,7 +17,9 @@
       "Bash(powershell.exe -Command \"where.exe /R 'C:\\\\Users\\\\Danushika' ffmpeg.exe 2>&1; where.exe /R 'C:\\\\ProgramData' ffmpeg.exe 2>&1; where.exe /R 'C:\\\\Program Files' ffmpeg.exe 2>&1\")",
       "Bash(powershell.exe -Command \"where.exe /R 'C:\\\\Users\\\\Danushika\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet' pdftoppm.exe 2>&1\")",
       "Bash(powershell.exe -Command \"[System.Environment]::GetEnvironmentVariable\\('Path', 'User'\\)\")",
-      "Bash(cmd.exe /c \"echo %PATH%\")"
+      "Bash(cmd.exe /c \"echo %PATH%\")",
+      "Bash(docker run:*)",
+      "Bash(docker exec:*)"
     ]
   }
 }
